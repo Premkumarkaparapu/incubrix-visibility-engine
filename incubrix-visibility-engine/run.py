@@ -33,7 +33,9 @@ def main():
     print("      ✓ Raw CSV Data  : http://localhost:8000/api/export/csv")
     print("\n[3/3] Server listening on http://127.0.0.1:8000 (Press Ctrl+C to stop)\n")
     
-    uvicorn.run("backend.main:app", host="127.0.0.1", port=8000, log_level="info")
+    port = int(os.environ.get("PORT", 8000))
+    host = "0.0.0.0" if os.environ.get("PORT") else "127.0.0.1"
+    uvicorn.run("backend.main:app", host=host, port=port, log_level="info")
 
 if __name__ == "__main__":
     main()
