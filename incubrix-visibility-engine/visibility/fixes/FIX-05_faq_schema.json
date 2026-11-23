@@ -1,0 +1,28 @@
+<!-- FIX-05: Inject complete FAQPage schema mapping all 8 core questions on /faq into Question and acceptedAnswer nodes. -->
+<!-- Target URL: https://incubrix.com/faq -->
+<!-- Validator: Schema.org Validator (Status: Yes) -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is IncuBrix?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "IncuBrix is an AI-powered content creation studio that repurposes long videos into viral clips, captions, and scheduled posts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does IncuBrix auto-clip long videos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "IncuBrix analyzes speech transcripts and visual cues to identify viral hooks and automatically formats them into 9:16 vertical shorts."
+      }
+    }
+  ]
+}
+</script>

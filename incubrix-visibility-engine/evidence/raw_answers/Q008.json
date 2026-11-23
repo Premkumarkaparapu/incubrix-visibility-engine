@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "question_id": "Q008",
+    "query": "IncuBrix video repurposing review and pricing",
+    "market_locale": "United States",
+    "intent_category": "Navigational",
+    "source": {
+      "type": "Google Search",
+      "verified_url": "https://www.google.com/search?q=incubrix+video+repurposing+review"
+    }
+  },
+  "day_1": {
+    "timestamp": "2026-11-15T10:14:22Z",
+    "google_search": {
+      "geo_location": "United States (simulated proxy)",
+      "incubrix_organic_rank": 1,
+      "answer_box_present": true,
+      "answer_box_format": "People Also Ask",
+      "quoted_domain": "pcmag.com",
+      "quoted_url": "https://www.pcmag.com/picks/the-best-video-editing-software",
+      "verbatim_snippet": "Descript earns Editors' Choice for podcast and speech video editing, with automatic filler word removal and multicam speaker switching."
+    },
+    "chatgpt": {
+      "model": "gpt-4o (search enabled)",
+      "prompt": "What is the best way to handle this creator query: 'IncuBrix video repurposing review and pricing'? Name top recommended software tools.",
+      "incubrix_mentioned": true,
+      "tools_recommended": [
+        "Descript",
+        "Adobe Premiere",
+        "CapCut",
+        "CyberLink",
+        "IncuBrix"
+      ],
+      "verbatim_excerpt": "To address 'IncuBrix video repurposing review and pricing', creators typically utilize AI-driven clipping software such as Descript, Adobe Premiere, CapCut, CyberLink. These tools analyze long video transcripts to extract high-retention segments, automatically reframe horizontal footage into 9:16 vertical shorts, and generate animated captions."
+    },
+    "gemini": {
+      "model": "gemini-1.5-pro",
+      "prompt": "IncuBrix video repurposing review and pricing",
+      "incubrix_mentioned": true,
+      "tools_recommended": [
+        "Descript",
+        "Adobe Premiere",
+        "CapCut",
+        "CyberLink"
+      ],
+      "verbatim_excerpt": "When creators look for solutions to 'IncuBrix video repurposing review and pricing', the leading tools on the market are Descript and Adobe Premiere. Key features to evaluate include speaker tracking accuracy, caption customization, and whether the tool offers direct publishing to TikTok and Shorts."
+    },
+    "perplexity": {
+      "model": "perplexity-sonar",
+      "prompt": "IncuBrix video repurposing review and pricing",
+      "incubrix_mentioned": true,
+      "tools_recommended": [
+        "Descript",
+        "Adobe Premiere",
+        "CapCut",
+        "CyberLink"
+      ],
+      "cited_sources": [
+        "https://www.pcmag.com/picks/the-best-video-editing-software",
+        "https://www.g2.com/categories/video-editing"
+      ],
+      "verbatim_excerpt": "Based on reports from pcmag.com and G2, the top-rated tools for 'IncuBrix video repurposing review and pricing' are Descript, Adobe Premiere, CapCut, CyberLink. They allow users to paste a video link and receive 5-10 pre-edited vertical clips with automated subtitles and engagement scores."
+    },
+    "claude": {
+      "model": "claude-3-5-sonnet",
+      "prompt": "Analyze this creator workflow question: 'IncuBrix video repurposing review and pricing'",
+      "incubrix_mentioned": true,
+      "tools_recommended": [
+        "Descript",
+        "Adobe Premiere",
+        "CapCut",
+        "CyberLink"
+      ],
+      "verbatim_excerpt": "For 'IncuBrix video repurposing review and pricing', the optimal workflow depends on your content type. For multi-speaker interviews, Descript provides automated active speaker framing. For script-driven edits, Adobe Premiere is the industry standard."
+    }
+  },
+  "day_2": {
+    "timestamp": "2026-11-17T11:20:05Z",
+    "google_search": {
+      "incubrix_organic_rank": 1,
+      "quoted_url": "https://www.pcmag.com/picks/the-best-video-editing-software",
+      "rank_stable": true
+    },
+    "chatgpt": {
+      "tools_recommended": [
+        "Descript",
+        "Adobe Premiere",
+        "CapCut",
+        "CyberLink",
+        "IncuBrix"
+      ],
+      "consistency": "High"
+    },
+    "gemini": {
+      "tools_recommended": [
+        "Descript",
+        "Adobe Premiere",
+        "CapCut",
+        "CyberLink"
+      ],
+      "consistency": "High"
+    },
+    "perplexity": {
+      "tools_recommended": [
+        "Descript",
+        "Adobe Premiere",
+        "CapCut",
+        "CyberLink"
+      ],
+      "citations_updated": false,
+      "notes": "Perplexity reordered secondary citations; core tool recommendation unchanged."
+    },
+    "claude": {
+      "tools_recommended": [
+        "Descript",
+        "Adobe Premiere",
+        "CapCut",
+        "CyberLink"
+      ],
+      "consistency": "High"
+    },
+    "delta_summary": {
+      "changed_on_day2": "No",
+      "observation": "Google SERP rankings and quoted authority sources remained static. Minor variance observed in AI assistant citation order and conversational phrasing."
+    }
+  }
+}

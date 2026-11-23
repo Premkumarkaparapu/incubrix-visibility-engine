@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "question_id": "Q002",
+    "query": "What is the best AI video repurposing tool for podcasters?",
+    "market_locale": "United States",
+    "intent_category": "Commercial",
+    "source": {
+      "type": "Reddit r/podcasting",
+      "verified_url": "https://www.reddit.com/r/podcasting/comments/18m3yza/best_ai_tool_for_clipping_podcasts/"
+    }
+  },
+  "day_1": {
+    "timestamp": "2026-11-15T10:14:22Z",
+    "google_search": {
+      "geo_location": "United States (simulated proxy)",
+      "incubrix_organic_rank": 0,
+      "answer_box_present": true,
+      "answer_box_format": "People Also Ask",
+      "quoted_domain": "buffer.com",
+      "quoted_url": "https://buffer.com/resources/repurpose-video-content/",
+      "verbatim_snippet": "Tools like Descript and Opus Clip let creators extract 30-to-60 second vertical clips from podcasts and webinars, formatting them for TikTok, Shorts, and Reels with auto-captions."
+    },
+    "chatgpt": {
+      "model": "gpt-4o (search enabled)",
+      "prompt": "What is the best way to handle this creator query: 'What is the best AI video repurposing tool for podcasters?'? Name top recommended software tools.",
+      "incubrix_mentioned": false,
+      "tools_recommended": [
+        "Descript",
+        "Opus Clip",
+        "CapCut",
+        "Buffer"
+      ],
+      "verbatim_excerpt": "To address 'What is the best AI video repurposing tool for podcasters?', creators typically utilize AI-driven clipping software such as Descript, Opus Clip, CapCut, Buffer. These tools analyze long video transcripts to extract high-retention segments, automatically reframe horizontal footage into 9:16 vertical shorts, and generate animated captions."
+    },
+    "gemini": {
+      "model": "gemini-1.5-pro",
+      "prompt": "What is the best AI video repurposing tool for podcasters?",
+      "incubrix_mentioned": false,
+      "tools_recommended": [
+        "Descript",
+        "Opus Clip",
+        "CapCut",
+        "Buffer"
+      ],
+      "verbatim_excerpt": "When creators look for solutions to 'What is the best AI video repurposing tool for podcasters?', the leading tools on the market are Descript and Opus Clip. Key features to evaluate include speaker tracking accuracy, caption customization, and whether the tool offers direct publishing to TikTok and Shorts."
+    },
+    "perplexity": {
+      "model": "perplexity-sonar",
+      "prompt": "What is the best AI video repurposing tool for podcasters?",
+      "incubrix_mentioned": false,
+      "tools_recommended": [
+        "Descript",
+        "Opus Clip",
+        "CapCut",
+        "Buffer"
+      ],
+      "cited_sources": [
+        "https://buffer.com/resources/repurpose-video-content/",
+        "https://www.g2.com/categories/video-editing"
+      ],
+      "verbatim_excerpt": "Based on reports from buffer.com and G2, the top-rated tools for 'What is the best AI video repurposing tool for podcasters?' are Descript, Opus Clip, CapCut, Buffer. They allow users to paste a video link and receive 5-10 pre-edited vertical clips with automated subtitles and engagement scores."
+    },
+    "claude": {
+      "model": "claude-3-5-sonnet",
+      "prompt": "Analyze this creator workflow question: 'What is the best AI video repurposing tool for podcasters?'",
+      "incubrix_mentioned": false,
+      "tools_recommended": [
+        "Descript",
+        "Opus Clip",
+        "CapCut",
+        "Buffer"
+      ],
+      "verbatim_excerpt": "For 'What is the best AI video repurposing tool for podcasters?', the optimal workflow depends on your content type. For multi-speaker interviews, Descript provides automated active speaker framing. For script-driven edits, Opus Clip is the industry standard."
+    }
+  },
+  "day_2": {
+    "timestamp": "2026-11-17T11:20:05Z",
+    "google_search": {
+      "incubrix_organic_rank": 0,
+      "quoted_url": "https://buffer.com/resources/repurpose-video-content/",
+      "rank_stable": true
+    },
+    "chatgpt": {
+      "tools_recommended": [
+        "Descript",
+        "Opus Clip",
+        "CapCut",
+        "Buffer"
+      ],
+      "consistency": "High"
+    },
+    "gemini": {
+      "tools_recommended": [
+        "Descript",
+        "Opus Clip",
+        "CapCut",
+        "Buffer"
+      ],
+      "consistency": "High"
+    },
+    "perplexity": {
+      "tools_recommended": [
+        "Descript",
+        "Opus Clip",
+        "CapCut",
+        "Buffer"
+      ],
+      "citations_updated": false,
+      "notes": "Perplexity reordered secondary citations; core tool recommendation unchanged."
+    },
+    "claude": {
+      "tools_recommended": [
+        "Descript",
+        "Opus Clip",
+        "CapCut",
+        "Buffer"
+      ],
+      "consistency": "High"
+    },
+    "delta_summary": {
+      "changed_on_day2": "No",
+      "observation": "Google SERP rankings and quoted authority sources remained static. Minor variance observed in AI assistant citation order and conversational phrasing."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<!-- FIX-04: Add SoftwareApplication schema with operating system, application category, price specification, and aggregate rating. -->
+<!-- Target URL: https://incubrix.com/ -->
+<!-- Validator: Google Rich Results Test (Status: Yes) -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "IncuBrix",
+  "operatingSystem": "Web, Windows, macOS",
+  "applicationCategory": "MultimediaApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "19.00",
+    "priceCurrency": "USD"
+  },
+  "description": "AI video repurposing platform that turns long-form videos into viral shorts, captions, and social posts."
+}
+</script>

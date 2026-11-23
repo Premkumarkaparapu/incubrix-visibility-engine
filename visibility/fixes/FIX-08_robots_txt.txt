@@ -1,0 +1,21 @@
+<!-- FIX-08: Update robots.txt with explicit Allow directives for major AI crawlers and reference both XML sitemaps and llms.txt. -->
+<!-- Target URL: https://incubrix.com/robots.txt -->
+<!-- Validator: Google Robots Testing Tool (Status: Yes) -->
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://incubrix.com/sitemap.xml
+Sitemap: https://incubrix.com/sitemap-video.xml

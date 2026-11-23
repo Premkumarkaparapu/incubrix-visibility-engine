@@ -1,0 +1,16 @@
+<!-- FIX-19: Create dedicated sitemap-video.xml indexing product demo walkthroughs with title, description, thumbnail_loc, and duration. -->
+<!-- Target URL: https://incubrix.com/sitemap-video.xml -->
+<!-- Validator: Google Search Central Video Sitemap Spec (Status: Yes) -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://incubrix.com/how-it-works</loc>
+    <video:video>
+      <video:thumbnail_loc>https://incubrix.com/images/demo-thumb.jpg</video:thumbnail_loc>
+      <video:title>IncuBrix 2-Minute AI Video Repurposing Demo</video:title>
+      <video:description>See how IncuBrix auto-clips, captions, and reframes long videos into 9:16 shorts.</video:description>
+      <video:duration>120</video:duration>
+    </video:video>
+  </url>
+</urlset>

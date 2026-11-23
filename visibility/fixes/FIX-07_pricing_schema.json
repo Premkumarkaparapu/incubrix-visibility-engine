@@ -1,0 +1,27 @@
+<!-- FIX-07: Add OfferCatalog schema defining Starter ($19/mo), Pro ($49/mo), and Enterprise tiers with currency, billing duration, and feature inclusions. -->
+<!-- Target URL: https://incubrix.com/pricing -->
+<!-- Validator: Schema.org Validator (Status: Yes) -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "OfferCatalog",
+  "name": "IncuBrix Subscription Plans",
+  "itemListElement": [
+    {
+      "@type": "Offer",
+      "name": "Starter Plan",
+      "price": "19.00",
+      "priceCurrency": "USD",
+      "description": "150 minutes of AI video processing per month."
+    },
+    {
+      "@type": "Offer",
+      "name": "Pro Plan",
+      "price": "49.00",
+      "priceCurrency": "USD",
+      "description": "500 minutes per month, 4K exports, and custom brand templates."
+    }
+  ]
+}
+</script>

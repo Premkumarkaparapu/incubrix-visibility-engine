@@ -1,0 +1,23 @@
+<!-- FIX-03: Inject JSON-LD Organization schema on homepage with official logo, founding info, sameAs social links, and contact details. -->
+<!-- Target URL: https://incubrix.com/ -->
+<!-- Validator: Google Rich Results Test (Status: Yes) -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "IncuBrix Private Limited",
+  "url": "https://incubrix.com",
+  "logo": "https://incubrix.com/logo.png",
+  "sameAs": [
+    "https://twitter.com/incubrix",
+    "https://linkedin.com/company/incubrix",
+    "https://youtube.com/@incubrix"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "contact@incubrix.com",
+    "contactType": "Customer Support"
+  }
+}
+</script>

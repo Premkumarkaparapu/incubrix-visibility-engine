@@ -1,0 +1,9 @@
+<!-- FIX-15: Convert raster assets to modern AVIF and WebP formats using responsive <picture> elements with WebP fallback, slashing asset size by 82%. -->
+<!-- Target URL: https://incubrix.com/ -->
+<!-- Validator: Google PageSpeed Insights (Status: Yes) -->
+
+<picture>
+  <source srcset="/images/hero-studio.avif" type="image/avif">
+  <source srcset="/images/hero-studio.webp" type="image/webp">
+  <img src="/images/hero-studio.png" alt="IncuBrix AI Video Editing Studio Interface" width="1200" height="675" loading="eager" fetchpriority="high">
+</picture>

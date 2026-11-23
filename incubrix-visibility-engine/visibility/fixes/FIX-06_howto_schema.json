@@ -1,0 +1,28 @@
+<!-- FIX-06: Implement HowTo schema with 3 discrete steps: Upload & Analyze, AI Highlights & Framing, and 1-Click Multi-Platform Publish. -->
+<!-- Target URL: https://incubrix.com/how-it-works -->
+<!-- Validator: Google Rich Results Test (Status: Yes) -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Repurpose Long Videos into Viral Shorts with IncuBrix",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Upload Your Video",
+      "text": "Paste a YouTube link or upload an MP4/MOV file directly into the IncuBrix studio."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Review AI Highlights and Captions",
+      "text": "IncuBrix identifies viral moments, tracks active speakers, and applies animated captions automatically."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Export and Schedule",
+      "text": "Export in 1080p/4K or schedule directly to YouTube Shorts, TikTok, and Instagram Reels."
+    }
+  ]
+}
+</script>
